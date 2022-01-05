@@ -11,6 +11,7 @@ const currentTime = setInterval(() => {
 const timeBlockColorSet = () => {
     let hour = moment().hour();
     let buttons = $('.saveBtn');
+    console.log(buttons.length);
     
     Array.from(buttons).forEach(element => {
         let value = parseInt(element.value);
@@ -39,7 +40,12 @@ const setLocalStorage = todos => {
 
 //saves new todo to local storage
 const saveTodo = event => {
-    let button = $(event.target).val();
+    let button;
+
+    event.target.tagName === 'BUTTON' ? 
+    button = $(event.target).val() :
+    button = $(event.target).parent().val();
+
     let text = $('#todo' + button).val();
 
     let todos = getLocalStorage();
