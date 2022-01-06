@@ -11,7 +11,6 @@ const currentTime = setInterval(() => {
 const timeBlockColorSet = () => {
     let hour = moment().hour();
     let buttons = $('.saveBtn');
-    console.log(buttons.length);
     
     Array.from(buttons).forEach(element => {
         let value = parseInt(element.value);

@@ -14,6 +14,7 @@ textarea {
 
   /* my styling */
   height: 100%;
+  z-index: 10;
 }
 
 .jumbotron {
@@ -37,6 +38,9 @@ textarea {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+
+  /*my styling*/
+  margin-top: .15rem;
 }
 
 .hour {
@@ -75,10 +79,6 @@ textarea {
   width: 5rem;
   height: 100%;
 }
-
-/* .fas {
-  pointer-events: none;
-} */
 
 .saveBtn i:hover {
   font-size: 20px;
