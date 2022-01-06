@@ -41,6 +41,6 @@ THEN the saved events persist
 
 ## Links
 
-[Live Website](https://mattyd96.github.io/javascript-simple-quiz/)  
+[Live Website](https://mattyd96.github.io/work-day-scheduler/)  
 
 [My Github Account](https://github.com/mattyd96)

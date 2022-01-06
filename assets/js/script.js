@@ -58,6 +58,7 @@ const saveTodo = event => {
 const setTodos = () => {
     let todos = getLocalStorage();
     let textAreas = $( "input[name*='todo']" );
+    textAreas.val("");
 
     for(const todo in todos) {
         $('#todo' + todo).val(todos[todo]);
