@@ -67,7 +67,7 @@ const setTodos = () => {
 
 //run these once dom is ready
 const init = () => {
-    setTodos()
+    setTodos();
     timeBlockColorSet();
 }
 
