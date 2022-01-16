@@ -39,6 +39,8 @@ THEN the saved events persist
 
 ## Notes
 
+For this one I tried to make it as much as possible using the existing classes. Only minor changed were done to make the layout workout and to make some elements of the button icon transistion more natural.
+
 ## Links
 
 [Live Website](https://mattyd96.github.io/work-day-scheduler/)  
